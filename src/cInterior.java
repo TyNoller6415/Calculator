@@ -8,10 +8,12 @@ public class cInterior {
 	int choice;
 	int cont = 0;
 	
-	public void calculationMenu() {
-		
+	public void Header() {
 		System.out.println("Calculator by: Tyler");
 		System.out.println("--------------------");
+	}
+	
+	public void calculationMenu() {
 		
 		do {
 			System.out.println("1. Addition");
